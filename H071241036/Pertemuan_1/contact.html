@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Portofolio</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Contact Me</h1>
+
+    <div class="table-wrapper">
+      <table>
+        <tbody>
+          <tr><th>Email</th><td>andialy2006@gmail.com</td></tr>
+          <tr><th>Telepon</th><td>+62 812 3456 7890</td></tr>
+          <tr><th>LinkedIn</th><td><a href="http://linkedin.com/in/andi-alya-062b68317" target="_blank">linkedin.com/in/andialya</a></td></tr>
+          <tr><th>Instagram</th><td><a href="https://www.instagram.com/andialyaasmin_" target="_blank">@andialyaasmin_</a></td></tr>
+          <tr><th>GitHub</th><td><a href="https://github.com/makhluksatur" target="_blank">github.com/makhluksatur</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <form>
+      <div>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required>
+      </div>
+
+      <div>
+      <label>Tipe Pesan:</label>
+      <div class="radio-group">
+        <label><input type="radio" name="type" value="Pertanyaan" required> Pertanyaan</label>
+        <label><input type="radio" name="type" value="Kritik"> Kritik</label>
+        <label><input type="radio" name="type" value="Saran"> Saran</label>
+        <label><input type="radio" name="type" value="Kerjasama"> Kerjasama</label>
+      </div>
+    </div>
+
+    <div>
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea>
+    </div>
+
+    <div class="checkbox-group">
+      <label><input type="checkbox" required> Saya setuju data saya digunakan untuk keperluan kontak</label>
+    </div>
+
+      <button type="submit">Kirim</button>
+    </form>
+
+  </section>
+
+  <footer>
+    <p>© 2025 A.Alya Musaenab Asmin | Find me on 
+      <a href="https://www.instagram.com/andialyaasmin_" target="_blank">Instagram</a> | <a href="https://github.com/makhluksatur" target="_blank">GitHub</a> | <a href="http://linkedin.com/in/andi-alya-062b68317" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+</body>
+</html>
